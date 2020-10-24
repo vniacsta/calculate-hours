@@ -1,0 +1,71 @@
+body {
+  background-color: #7c898f;
+  color: #d4e8f2;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 60px auto;
+  max-width: 450px;
+}
+
+h1 {
+  font-family: "Rock Salt", cursive;
+  padding: 30px 0;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: 200;
+  padding-bottom: 30px;
+}
+
+.calculator-box {
+  padding: 30px 70px;
+  margin-bottom: 30px;
+  border: 0.75px solid #b3c5ce;
+  border-radius: 5px;
+}
+
+.footer-txt {
+  font-size: 13px;
+  font-weight: 200;
+}
+
+.footer-txt .link {
+  color: #b3c5ce;
+  text-decoration: none;
+}
+
+.calculator-box .input-number {
+  max-width: 70px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 2px 5px;
+}
+
+.calculator-box #dropdown {
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.calculator-box button {
+  background-color: #7c898f;
+  border: 1px solid #b3c5ce;
+  border-radius: 5px;
+  outline: none;
+  position: relative;
+  right: -65px;
+  padding: 2px 8px;
+  margin: 5px;
+}
+
+.fa-search {
+  color: #ffffff;
+}
+
+#output {
+  margin: 30px 0 15px;
+  padding: 10px;
+  color: #000000;
+  background-color: #b3c5ce;
+  border-radius: 5px;
+}
