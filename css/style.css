@@ -112,33 +112,11 @@ footer {
 
 /* CALCULATOR BOX CSS FOR MOBILE */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
-  .calculator-box {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 0.75px solid #b3c5ce;
-    border-radius: 5px;
+  .input-number {
+    max-width: 50px;
   }
 
-  .calculator-box .input-number {
-    max-width: 60px;
-    border-radius: 5px;
-    border: none;
-    outline: none;
-    padding: 2px 5px;
-  }
-
-  .calculator-box .dropdown {
-    width: 80px;
-    border-radius: 5px;
-    padding: 2px;
-    outline: none;
-  }
-
-  .calculator-box .btn {
-    background-color: #7c898f;
-    border: 1px solid #b3c5ce;
-    border-radius: 5px;
-    padding: 2px 8px;
-    outline: none;
+  .dropdown {
+    width: 50px;
   }
 }
