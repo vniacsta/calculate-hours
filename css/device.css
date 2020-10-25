@@ -12,16 +12,16 @@ h1 {
 
 h4,
 h5 {
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 200;
 }
 
 h5 {
-  padding-bottom: 15px;
+  padding-bottom: 18px;
 }
 
 .footer-txt {
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 100;
 }
 
@@ -32,7 +32,7 @@ h5 {
 
 /* CALCULATOR BOX */
 .calculator-box {
-  padding: 10px 20px;
+  padding: 25px 20px;
   margin-bottom: 20px;
   border: 0.75px solid #b3c5ce;
   border-radius: 5px;
@@ -54,7 +54,8 @@ h5 {
 }
 
 .calculator-box .second-line {
-  position: left;
+  position: relative;
+  left: 108px;
 }
 
 .calculator-box .btn {
@@ -62,7 +63,7 @@ h5 {
   border: 1px solid #b3c5ce;
   border-radius: 5px;
   padding: 2px 8px;
-  margin: auto;
+  margin: 5px 0 5px 10px;
   outline: none;
 }
 
