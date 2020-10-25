@@ -9,12 +9,12 @@ let input;
 let selectedOptionBox1;
 let selectedOptionBox2;
 
-refresh.addEventListener('click', (event) => {
+refresh.onclick = (event) => {
   event.preventDefault();
   location.reload();
-});
+};
 
-dropdown1.addEventListener('click', (event) => {
+dropdown1.onclick = (event) => {
   event.preventDefault();
   selectedOptionBox1 = dropdown1.value;
 
@@ -26,12 +26,12 @@ dropdown1.addEventListener('click', (event) => {
     });
   }); 
 
-});
+};
 
-dropdown2.addEventListener('click', (event) => {
+dropdown2.onclick = (event) => {
   event.preventDefault();
   selectedOptionBox2 = dropdown2.value;
-});
+};
 
 calculate = (number) => {
   if (selectedOptionBox1 === 'hours' && selectedOptionBox2 === 'days') {
@@ -144,9 +144,9 @@ calculate = (number) => {
   }
 }
 
-submit.addEventListener('click', (event) => {
+submit.onclick = (event) => {
   event.preventDefault();
   
   input = document.querySelector('#input-number');
   calculate(input.value);
-});
+};
