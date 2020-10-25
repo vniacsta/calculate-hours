@@ -2,8 +2,7 @@ body {
   background-color: #7c898f;
   color: #d4e8f2;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  margin: 60px auto;
-  max-width: 450px;
+  margin: auto;
 }
 
 h1 {
@@ -13,17 +12,17 @@ h1 {
 
 h4,
 h5 {
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 200;
 }
 
 h5 {
-  padding-bottom: 25px;
+  padding-bottom: 15px;
 }
 
 .footer-txt {
-  font-size: 13px;
-  font-weight: 200;
+  font-size: 10px;
+  font-weight: 100;
 }
 
 .footer-txt .link {
@@ -33,8 +32,8 @@ h5 {
 
 /* CALCULATOR BOX */
 .calculator-box {
-  padding: 25px 40px;
-  margin-bottom: 30px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
   border: 0.75px solid #b3c5ce;
   border-radius: 5px;
 }
@@ -55,8 +54,7 @@ h5 {
 }
 
 .calculator-box .second-line {
-  position: relative;
-  left: 108px;
+  position: left;
 }
 
 .calculator-box .btn {
@@ -64,7 +62,7 @@ h5 {
   border: 1px solid #b3c5ce;
   border-radius: 5px;
   padding: 2px 8px;
-  margin: 0 0 5px 44px;
+  margin: auto;
   outline: none;
 }
 
@@ -78,7 +76,7 @@ h5 {
 
 #result {
   text-align: center;
-  margin: 30px 0 10px;
+  margin: 20px 0 5px;
   padding: 10px;
   background-color: #b3c5ce;
   border-radius: 5px;

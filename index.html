@@ -20,6 +20,12 @@
     ></script>
     <link rel="icon" href="./user-clock-solid.svg" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="only screen and (max-width: 480px), only screen and (max-device-width: 480px)"
+      href="./css/device.css"
+    />
   </head>
   <body>
     <div class="container">
@@ -45,7 +51,6 @@
             <option value="days">Dias</option>
             <option value="months">Meses</option>
             <option value="years">Anos</option>
-            <!--<option value="working">Tempo útil</option>-->
           </select>
           <button type="submit" class="btn" id="refresh-btn">
             <i class="fas fa-redo-alt"></i>
@@ -58,7 +63,7 @@
               <option value="days">Dias</option>
               <option value="months">Meses</option>
               <option value="years">Anos</option>
-              <!--<option value="working">Tempo útil</option>-->
+              <option value="working">Tempo útil</option>
             </select>
             <button type="submit" class="btn" id="submit-btn">
               <i class="fas fa-search"></i>
