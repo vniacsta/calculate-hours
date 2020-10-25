@@ -39,7 +39,7 @@ h5 {
 }
 
 .calculator-box .input-number {
-  max-width: 70px;
+  max-width: 50px;
   border-radius: 5px;
   border: none;
   outline: none;
@@ -47,7 +47,7 @@ h5 {
 }
 
 .calculator-box .dropdown {
-  width: 120px;
+  width: 105px;
   border-radius: 5px;
   padding: 2px;
   outline: none;
@@ -55,7 +55,7 @@ h5 {
 
 .calculator-box .second-line {
   position: relative;
-  left: 115px;
+  left: 100px;
 }
 
 .calculator-box .btn {
