@@ -2,7 +2,7 @@ body {
   background-color: #7c898f;
   color: #d4e8f2;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  margin: 60px auto;
+  margin: 20px auto;
   max-width: 450px;
 }
 
@@ -91,4 +91,42 @@ h5 {
 
 #result #output {
   color: #000000;
+}
+
+/* CALCULATOR BOX CSS FOR MOBILE */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .calculator-box {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 0.75px solid #b3c5ce;
+    border-radius: 5px;
+  }
+
+  .calculator-box .input-number {
+    max-width: 60px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 2px 5px;
+  }
+
+  .calculator-box .dropdown {
+    width: 80px;
+    border-radius: 5px;
+    padding: 2px;
+    outline: none;
+  }
+
+  .calculator-box .second-line {
+    position: relative;
+    left: 60px;
+  }
+
+  .calculator-box .btn {
+    background-color: #7c898f;
+    border: 1px solid #b3c5ce;
+    border-radius: 5px;
+    padding: 2px 8px;
+    outline: none;
+  }
 }
