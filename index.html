@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>App para Calcular Horas | Resultados rápidos e eficazes</title>
+    <title>Calcular Horas | Resultados rápidos e eficazes</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap"
       rel="stylesheet"
@@ -18,62 +18,68 @@
       src="https://kit.fontawesome.com/2324bc7f0f.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="icon" href="src/user-clock-solid.svg" />
-    <link rel="stylesheet" href="src/style.css" />
+    <link rel="icon" href="./user-clock-solid.svg" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <div class="container">
       <h1>Calcular Horas</h1>
       <h4>
-        Com esta app poderá facilmente calcular horas para dias e o contrário.
-        <br />
-        P.f. escolha entre as opções para obter o resultado pretendido.
+        Com esta app poderá facilmente calcular o tempo que um curso irá
+        demorar. Só tem de escolher a opção de tempo útil, que contabiliza
+        apenas 5 dias por semana e 8 horas por dia.
       </h4>
+      <h5>P.f. escolha entre as opções para obter o resultado pretendido.</h5>
       <div class="calculator-box" id="box">
         <form>
-          <label for="calculate">Calcular</label>
+          <label>Calcular</label>
           <input
             type="text"
-            placeholder="Número"
             autocomplete="off"
             class="input-number"
             id="input-number"
           />
-          <select id="dropdown">
-            <option value="days">Horas</option>
+          <select id="dropdown1" class="dropdown">
+            <option>Selecionar</option>
+            <option value="hours">Horas</option>
             <option value="days">Dias</option>
-            <option value="weeks">Semanas</option>
             <option value="months">Meses</option>
             <option value="years">Anos</option>
+            <!--<option value="working">Tempo útil</option>-->
           </select>
-          <br />
-          <label for="calculate">em</label>
-          <select id="dropdown">
-            <option value="days">Horas</option>
-            <option value="days">Dias</option>
-            <option value="weeks">Semanas</option>
-            <option value="months">Meses</option>
-            <option value="years">Anos</option>
-          </select>
-          <button type="submit" class="submit-btn" id="submit-btn">
-            <i class="fas fa-search"></i>
+          <button type="submit" class="btn" id="refresh-btn">
+            <i class="fas fa-redo-alt"></i>
           </button>
+          <div class="second-line">
+            <label>em</label>
+            <select id="dropdown2" class="dropdown">
+              <option>Selecionar</option>
+              <option value="hours">Horas</option>
+              <option value="days">Dias</option>
+              <option value="months">Meses</option>
+              <option value="years">Anos</option>
+              <!--<option value="working">Tempo útil</option>-->
+            </select>
+            <button type="submit" class="btn" id="submit-btn">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
         </form>
-        <div id="output">Resultado:</div>
+        <div id="result" style="display: none">
+          <p class="result-txt">Resultado:</p>
+          <p id="output"></p>
+        </div>
       </div>
       <footer>
         <small class="footer-txt">
-          Código disponível no
-          <a class="link" href="https://github.com/vniacsta/XX" target="_blank">
-            Github
-          </a>
-          · Feito com <i class="fas fa-heart"></i> por
+          Feito com <i class="fas fa-heart"></i> por
           <a class="link" href="https://vniacsta.pt/" target="_blank">
             VniaCsta
           </a>
         </small>
       </footer>
     </div>
-    <script src="src/app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="./js/app.js"></script>
   </body>
 </html>

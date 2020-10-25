@@ -11,17 +11,14 @@ h1 {
   padding: 30px 0;
 }
 
-h4 {
+h4,
+h5 {
   font-size: 16px;
   font-weight: 200;
-  padding-bottom: 30px;
 }
 
-.calculator-box {
-  padding: 30px 70px;
-  margin-bottom: 30px;
-  border: 0.75px solid #b3c5ce;
-  border-radius: 5px;
+h5 {
+  padding-bottom: 25px;
 }
 
 .footer-txt {
@@ -30,8 +27,16 @@ h4 {
 }
 
 .footer-txt .link {
-  color: #b3c5ce;
+  color: #ffffff;
   text-decoration: none;
+}
+
+/* CALCULATOR BOX */
+.calculator-box {
+  padding: 30px 40px;
+  margin-bottom: 30px;
+  border: 0.75px solid #b3c5ce;
+  border-radius: 5px;
 }
 
 .calculator-box .input-number {
@@ -42,30 +47,48 @@ h4 {
   padding: 2px 5px;
 }
 
-.calculator-box #dropdown {
+.calculator-box .dropdown {
+  width: 120px;
   border-radius: 5px;
   padding: 2px;
+  outline: none;
 }
 
-.calculator-box button {
+.calculator-box .second-line {
+  position: relative;
+  left: 108px;
+}
+
+.calculator-box .btn {
   background-color: #7c898f;
   border: 1px solid #b3c5ce;
   border-radius: 5px;
-  outline: none;
-  position: relative;
-  right: -65px;
   padding: 2px 8px;
-  margin: 5px;
+  margin: 0 0 5px 44px;
+  outline: none;
+}
+
+.fa-redo-alt {
+  color: #b3c5ce;
 }
 
 .fa-search {
   color: #ffffff;
 }
 
-#output {
-  margin: 30px 0 15px;
+#result {
+  text-align: center;
+  margin: 30px 0 10px;
   padding: 10px;
-  color: #000000;
   background-color: #b3c5ce;
   border-radius: 5px;
+}
+
+#result .result-txt {
+  color: #7c898f;
+  padding: 5px 0 0 0;
+}
+
+#result #output {
+  color: #000000;
 }
