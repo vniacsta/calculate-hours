@@ -117,6 +117,21 @@ footer {
   }
 
   .dropdown {
-    width: 50px;
+    max-width: 50px;
+  }
+
+  .calculator-box .second-line {
+    position: relative;
+    left: 110px;
+  }
+
+  .btn1 {
+    position: relative;
+    left: 52px;
+  }
+
+  .btn2 {
+    position: relative;
+    left: 46px;
   }
 }
