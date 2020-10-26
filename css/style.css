@@ -107,27 +107,27 @@ footer {
   color: #000000;
 }
 
-/* CALCULATOR BOX CSS FOR MOBILE */
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+/* CALCULATOR BOX CSS FOR MOBILE LIKE IPHONE PLUS */
+@media only screen and (min-device-width: 480px) and (max-device-width: 667px) {
   .calculator-box {
     padding: 15px 10px 15px 30px;
   }
 
-  label {
-    text-align: center;
+  .first-line {
+    text-align: right;
   }
 
   .input-number {
-    max-width: 130px;
-    text-align: left;
+    max-width: 80px;
     padding: 2px 5px;
-    text-align: center;
   }
 
   .dropdown {
-    width: 140px;
-    display: block;
-    text-align: center;
+    width: 120px;
+  }
+
+  .second-line {
+    text-align: right;
   }
 
   .calculator-box .btn {
@@ -136,6 +136,39 @@ footer {
   }
 
   .third-line {
-    text-align: center;
+    text-align: right;
+  }
+}
+
+/* CALCULATOR BOX CSS FOR SMALLER SCREEN MOBILES */
+@media only screen and (min-device-width: 375px) and (max-device-width: 480px) {
+  .calculator-box {
+    padding: 15px 10px 15px 30px;
+  }
+
+  .first-line {
+    text-align: left;
+  }
+
+  .input-number {
+    max-width: 60px;
+    padding: 2px 5px;
+  }
+
+  .dropdown {
+    width: 80px;
+  }
+
+  .second-line {
+    text-align: left;
+  }
+
+  .calculator-box .btn {
+    padding: 4px 12px;
+    margin: 2px 0 0 5px;
+  }
+
+  .third-line {
+    text-align: left;
   }
 }
