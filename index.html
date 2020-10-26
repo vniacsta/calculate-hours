@@ -32,20 +32,22 @@
       <h5>P.f. escolha entre as opções para obter o resultado pretendido.</h5>
       <div class="calculator-box" id="box">
         <form>
-          <label>Calcular</label>
-          <input
-            type="text"
-            autocomplete="off"
-            class="input-number"
-            id="input-number"
-          />
-          <select id="dropdown1" class="dropdown">
-            <option>Selecionar</option>
-            <option value="hours">Horas</option>
-            <option value="days">Dias</option>
-            <option value="months">Meses</option>
-            <option value="years">Anos</option>
-          </select>
+          <div class="first-line">
+            <label>Calcular</label>
+            <input
+              type="text"
+              autocomplete="off"
+              class="input-number"
+              id="input-number"
+            />
+            <select id="dropdown1" class="dropdown">
+              <option>Selecionar</option>
+              <option value="hours">Horas</option>
+              <option value="days">Dias</option>
+              <option value="months">Meses</option>
+              <option value="years">Anos</option>
+            </select>
+          </div>
           <div class="second-line">
             <label>em</label>
             <select id="dropdown2" class="dropdown">
@@ -56,13 +58,14 @@
               <option value="years">Anos</option>
               <option value="working">Tempo útil</option>
             </select>
-            <br />
-            <button type="submit" class="btn btn1" id="refresh-btn">
-              <i class="fas fa-redo-alt"></i>
-            </button>
-            <button type="submit" class="btn btn2" id="submit-btn">
-              <i class="fas fa-search"></i>
-            </button>
+            <div class="third-line">
+              <button type="submit" class="btn btn1" id="refresh-btn">
+                <i class="fas fa-redo-alt"></i>
+              </button>
+              <button type="submit" class="btn btn2" id="submit-btn">
+                <i class="fas fa-search"></i>
+              </button>
+            </div>
           </div>
         </form>
         <div id="result" style="display: none">
