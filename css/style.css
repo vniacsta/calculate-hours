@@ -114,19 +114,17 @@ footer {
   }
 
   label {
-    display: block;
     text-align: center;
   }
 
   .dropdown {
     display: block;
     width: 160px;
-    margin: 10px auto;
+    margin: 0 auto;
   }
 
   .input-number {
-    display: block;
-    max-width: 120px;
+    max-width: 150px;
     padding: 2px 5px;
     margin: 0 auto;
   }
