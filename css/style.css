@@ -114,14 +114,12 @@ footer {
   }
 
   label {
-    display: inline;
     text-align: center;
   }
 
   .input-number {
     max-width: 150px;
     padding: 5px 5px;
-    margin: 0 auto;
     text-align: center;
   }
 
