@@ -114,21 +114,20 @@ footer {
   }
 
   label {
-    display: block;
-    text-align: left;
-  }
-
-  .dropdown {
-    width: 120px;
-    display: block;
-    text-align: left;
+    text-align: center;
   }
 
   .input-number {
-    display: block;
-    max-width: 100px;
+    max-width: 130px;
     text-align: left;
     padding: 2px 5px;
+    text-align: center;
+  }
+
+  .dropdown {
+    width: 140px;
+    display: block;
+    text-align: center;
   }
 
   .calculator-box .btn {
