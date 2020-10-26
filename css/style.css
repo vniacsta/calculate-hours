@@ -113,11 +113,13 @@ footer {
     padding: 22px;
   }
 
-  .input-number {
-    max-width: 50px;
+  .calculator-box .dropdown {
+    width: 50px;
+    background-color: #ffffff;
+    border: none;
   }
 
-  .dropdown {
-    width: 50px;
+  .input-number {
+    max-width: 50px;
   }
 }
