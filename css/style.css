@@ -115,7 +115,7 @@ label {
   color: #000000;
 }
 
-/* CALCULATOR BOX CSS FOR MOBILE LIKE IPHONE PLUS */
+/* CALCULATOR BOX CSS FOR MOBILE LIKE IPHONE PLUS 
 @media only screen and (min-device-width: 480px) and (max-device-width: 667px) {
   .calculator-box {
     padding: 15px 10px 15px 30px;
@@ -148,7 +148,7 @@ label {
   }
 }
 
-/* CALCULATOR BOX CSS FOR SMALLER SCREEN MOBILES */
+ CALCULATOR BOX CSS FOR SMALLER SCREEN MOBILES 
 @media only screen and (min-device-width: 375px) and (max-device-width: 480px) {
   .calculator-box {
     padding: 15px 10px 15px 30px;
@@ -180,3 +180,4 @@ label {
     text-align: left;
   }
 }
+*/
