@@ -40,15 +40,20 @@ footer {
 
 /* CALCULATOR BOX */
 .calculator-box {
-  max-width: 320px;
-  padding: 30px;
+  max-width: 400px;
+  padding: 20px;
   margin: 0 auto;
   border: 0.75px solid #b3c5ce;
   border-radius: 5px;
 }
 
+label {
+  font-size: 15px;
+  font-weight: 300;
+}
+
 .first-line {
-  text-align: right;
+  text-align: center;
 }
 
 .calculator-box .input-number {
@@ -66,8 +71,10 @@ footer {
   outline: none;
 }
 
-.calculator-box .second-line {
-  text-align: right;
+.second-line,
+.third-line {
+  padding: 5px;
+  text-align: center;
 }
 
 .calculator-box .btn {
@@ -79,8 +86,9 @@ footer {
   outline: none;
 }
 
-.third-line {
-  text-align: right;
+.forth-line {
+  padding-top: 10px;
+  text-align: center;
 }
 
 .fa-redo-alt {
