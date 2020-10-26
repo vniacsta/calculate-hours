@@ -110,7 +110,7 @@ footer {
 /* CALCULATOR BOX CSS FOR MOBILE */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
   .calculator-box {
-    padding: 15px 10px 15px 30px;
+    padding: 15px 10px 15px 10px;
   }
 
   label {
@@ -119,17 +119,14 @@ footer {
   }
 
   .dropdown {
-    width: 140px;
-    display: block;
-    text-align: center;
-    margin: 10px 0;
+    width: 160px;
+    margin: 10px auto;
   }
 
   .input-number {
-    display: block;
     max-width: 120px;
-    text-align: center;
     padding: 2px 5px;
+    margin: 0 auto;
   }
 
   .calculator-box .btn {
