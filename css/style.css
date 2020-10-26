@@ -115,19 +115,20 @@ footer {
 
   label {
     display: block;
-    text-align: left;
+    text-align: center;
   }
 
   .dropdown {
-    width: 120px;
+    width: 140px;
     display: block;
-    text-align: left;
+    text-align: center;
+    margin: 10px 0;
   }
 
   .input-number {
     display: block;
-    max-width: 100px;
-    text-align: left;
+    max-width: 120px;
+    text-align: center;
     padding: 2px 5px;
   }
 
