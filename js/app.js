@@ -25,7 +25,6 @@ dropdown1.onclick = (event) => {
       $("select").not(this).find("option[value='"+ $(this).val() + "']").attr('disabled', true);
     });
   }); 
-
 };
 
 dropdown2.onclick = (event) => {
@@ -141,12 +140,13 @@ calculate = (number) => {
     
     resultBox.setAttribute('style', 'display: inherit');
     output.innerText = `${months} meses`;
-  }
+  
+  } 
 }
 
-submit.onclick = (event) => {
-  event.preventDefault();
-  
-  input = document.querySelector('#input-number');
-  calculate(input.value);
-};
+$(document).bind('pageinit', function(){
+  $(submit).vclick(function() {
+    input = document.querySelector('#input-number');
+    calculate(input.value);
+   });
+});
