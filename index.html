@@ -25,15 +25,19 @@
     <div class="container">
       <h1>Calcular Horas</h1>
       <h4>
-        Com esta app poderá facilmente calcular o tempo que um curso irá
+        Com esta app, poderá facilmente calcular o número de horas em dias e
+        vice-versa, entre outras opções.
+        <!--Com esta app poderá facilmente calcular o tempo que um curso irá
         demorar. Só tem de escolher a opção de tempo útil, que contabiliza
-        apenas 5 dias por semana e 8 horas por dia.
+        apenas 5 dias por semana e 8 horas por dia.-->
       </h4>
       <h5>P.f. escolha entre as opções para obter o resultado pretendido.</h5>
       <div class="calculator-box" id="box">
         <form>
           <div class="first-line">
-            <label>Calcular</label>
+            <h4>Calcule o n.º de unidades de tempo</h4>
+          </div>
+          <div class="second-line">
             <input
               type="text"
               autocomplete="off"
@@ -48,7 +52,7 @@
               <option value="years">Anos</option>
             </select>
           </div>
-          <div class="second-line">
+          <div class="third-line">
             <label>em</label>
             <select id="dropdown2" class="dropdown">
               <option>Selecionar</option>
@@ -56,9 +60,9 @@
               <option value="days">Dias</option>
               <option value="months">Meses</option>
               <option value="years">Anos</option>
-              <option value="working">Tempo útil</option>
+              <!--<option value="working">Tempo útil</option>-->
             </select>
-            <div class="third-line">
+            <div class="forth-line">
               <button type="submit" class="btn btn1" id="refresh-btn">
                 <i class="fas fa-redo-alt"></i>
               </button>
@@ -83,7 +87,6 @@
       </footer>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
     <script src="./js/app.js"></script>
   </body>
 </html>
