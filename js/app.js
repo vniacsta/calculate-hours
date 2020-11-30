@@ -151,7 +151,6 @@ calculate = (number) => {
     
     resultBox.setAttribute('style', 'display: inherit');
     output.innerText = `${months} meses`;
-  
   } 
   
   /*if (selectedOptionBox1 === 'hours' && selectedOptionBox2 === 'working') {
@@ -164,8 +163,9 @@ calculate = (number) => {
 
     resultBox.setAttribute('style', 'display: inherit');
     output.innerHTML = `${weeks} semanas and ${days} dias`;
-
-  } else if (selectedOptionBox1 === 'days' && selectedOptionBox2 === 'working') {
+  } 
+  
+  if (selectedOptionBox1 === 'days' && selectedOptionBox2 === 'working') {
     let days = number / 40;
     let days = number / 8;
     
